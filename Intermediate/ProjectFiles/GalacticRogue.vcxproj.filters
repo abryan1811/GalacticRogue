@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\example.log" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -120,16 +121,16 @@
     <ClInclude Include="..\..\Source\GalacticRogue\ObjectiveCollision.h">
       <Filter>Source\GalacticRogue</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\GalacticRogue\RightTriggerOnGenerator.cpp">
+    <ClCompile Include="..\..\Source\GalacticRogue\TriggerOneOnGenerator.cpp">
       <Filter>Source\GalacticRogue</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\GalacticRogue\RightTriggerOnGenerator.h">
+    <ClInclude Include="..\..\Source\GalacticRogue\TriggerOneOnGenerator.h">
       <Filter>Source\GalacticRogue</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\GalacticRogue\TriggersOnGenerator.cpp">
+    <ClCompile Include="..\..\Source\GalacticRogue\TriggerTwoOnGenerator.cpp">
       <Filter>Source\GalacticRogue</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\GalacticRogue\TriggersOnGenerator.h">
+    <ClInclude Include="..\..\Source\GalacticRogue\TriggerTwoOnGenerator.h">
       <Filter>Source\GalacticRogue</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GalacticRogue\UIObjectPreviewActor.cpp">

@@ -110,6 +110,7 @@
     <None Include="..\..\Source\GalacticRogue.Target.cs"/>
     <None Include="..\..\Source\GalacticRogueEditor.Target.cs"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\example.log"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
@@ -200,18 +201,18 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\GalacticRogue\ObjectiveCollision.h"/>
-    <ClCompile Include="..\..\Source\GalacticRogue\RightTriggerOnGenerator.cpp">
+    <ClCompile Include="..\..\Source\GalacticRogue\TriggerOneOnGenerator.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\Source\GalacticRogue\RightTriggerOnGenerator.h"/>
-    <ClCompile Include="..\..\Source\GalacticRogue\TriggersOnGenerator.cpp">
+    <ClInclude Include="..\..\Source\GalacticRogue\TriggerOneOnGenerator.h"/>
+    <ClCompile Include="..\..\Source\GalacticRogue\TriggerTwoOnGenerator.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\Source\GalacticRogue\TriggersOnGenerator.h"/>
+    <ClInclude Include="..\..\Source\GalacticRogue\TriggerTwoOnGenerator.h"/>
     <ClCompile Include="..\..\Source\GalacticRogue\UIObjectPreviewActor.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
