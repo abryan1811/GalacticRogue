@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GalacticRogue.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GalacticRogue.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GalacticRogueEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GalacticRogue">
+      <UniqueIdentifier>{FEA36FE6-2EE1-3B7E-840B-302E7844F07D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GalacticRogue\AmbientSoundComponent.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\AmbientSoundComponent.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\ButtonInteractionComponent.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\ButtonInteractionComponent.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\CharacterObjectives.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\CharacterObjectives.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\EndGoalTrigger.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\EndGoalTrigger.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\FootstepComponent.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\FootstepComponent.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GalacticRogue\GalacticRogue.Build.cs">
+      <Filter>Source\GalacticRogue</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GalacticRogue\GalacticRogue.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\GalacticRogue.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\GalacticRogueCharacter.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\GalacticRogueCharacter.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\GalacticRogueGameMode.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\GalacticRogueGameMode.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\GeneratorTrigger.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\GeneratorTrigger.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\Grabber.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\Grabber.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\HeldObjectWidget.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\HeldObjectWidget.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\KeyCardTrigger.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\KeyCardTrigger.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\Mover.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\Mover.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\ObjectiveCollision.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\ObjectiveCollision.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\RightTriggerOnGenerator.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\RightTriggerOnGenerator.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\TriggersOnGenerator.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\TriggersOnGenerator.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\UIObjectPreviewActor.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\UIObjectPreviewActor.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalacticRogue\UIWidget_in_cpp.cpp">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalacticRogue\UIWidget_in_cpp.h">
+      <Filter>Source\GalacticRogue</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

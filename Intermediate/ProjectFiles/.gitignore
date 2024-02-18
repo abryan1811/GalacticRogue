@@ -1,0 +1,13 @@
+# Ignore compiled files
+*.exe
+*.dll
+
+# Ignore directories
+bin/
+obj/
+
+# Ignore log files
+*.log
+
+# Ignore configuration files with secrets
+config/secret-config.json
